@@ -1,0 +1,48 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-batten-blocks-batten-bio  {
+  background: #416d33;
+  color: white;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 40px;
+  margin-top: 170px;
+  
+  .bio-image {
+    border-radius: 50%;
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    height: 300px;
+    overflow: hidden;
+    top: -150px;
+    transform: translateX(-150px);
+  }
+  
+  .bio-name {
+    color: white;
+    margin-bottom: .2em;
+    text-align: center;
+  }
+  .bio-subtitle {
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .bio-text {
+    width: 96%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+  
+  .bio-paragraph {
+    margin-top: 1em;
+  }
+
+}
