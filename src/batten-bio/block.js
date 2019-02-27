@@ -105,6 +105,7 @@ registerBlockType( 'batten-blocks/batten-bio', {
 							onSelect={ onSelectImage }
 							allowedTypes="image"
 							value={ mediaID }
+							title={ __('Click to select photo', 'batten-blocks') }
 							render={ ( { open } ) => (
 								<Button className={ mediaID ? 'image-button' : 'button button-large' } onClick={ open }>
 									{ ! mediaID ? __( 'Upload image', 'batten-blocks' ) : <img src={ mediaURL } alt={ __( 'Upload image', 'batten-blocks' ) } /> }
