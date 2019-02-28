@@ -11,3 +11,4 @@
 
 // import './block/block.js';
 import './batten-bio/block.js';
+import './batten-quotation/block.js';

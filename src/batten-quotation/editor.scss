@@ -1,0 +1,21 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .wp-block-batten-blocks-batten-quotation {
+   position: relative;
+   padding: 3rem !important;
+
+   blockquote {
+     padding: 2rem !important;
+   }
+
+  .background-image-button {
+    position: absolute;
+    right: .5em;
+    bottom: .5em;
+  }
+}
