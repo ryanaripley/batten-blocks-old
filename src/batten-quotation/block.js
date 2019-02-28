@@ -47,7 +47,7 @@ registerBlockType( 'batten-blocks/batten-quotation', {
 		},
 		backgroundImage: {
 			type: 'string',
-			default: null,
+			default: 'radial-gradient(ellipse at top, #494949 1%,#2b2b2b 100%)',
 		}
 	},
 
